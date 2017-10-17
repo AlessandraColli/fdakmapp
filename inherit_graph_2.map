@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_dissimilarity.html" title="Base class for all the available dissimilarity. " alt="" coords="5,31,100,57"/>
+<area shape="rect" id="node2" href="$class_l2.html" title="L2 Distance. " alt="" coords="164,5,203,32"/>
+<area shape="rect" id="node3" href="$class_pearson.html" title="Pearson similarity. " alt="" coords="148,56,219,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_center_method.html" title="Base class for all the center methods available. " alt="" coords="5,56,109,83"/>
+<area shape="rect" id="node2" href="$class_mean.html" title="Mean center method compute an approximation by lowess. " alt="" coords="184,5,239,32"/>
+<area shape="rect" id="node3" href="$class_medoid.html" title="Medoid center method finds the real medoid center. " alt="" coords="179,56,243,83"/>
+<area shape="rect" id="node4" href="$class_pseudo_medoid.html" title="PseudoMedoid center method finds the real medoid of each component and create a center. " alt="" coords="157,107,265,133"/>
+</map>
