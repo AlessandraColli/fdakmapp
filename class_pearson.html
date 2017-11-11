@@ -9,14 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(initResizable);
-/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -30,7 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">fdakmapp
+   &#160;<span id="projectnumber">2.1</span>
    </div>
+   <div id="projectbrief">K-mean alignment for functional data</div>
   </td>
  </tr>
  </tbody>
@@ -53,23 +47,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('class_pearson.html','');});
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -84,6 +61,7 @@ $(document).ready(function(){initNavTree('class_pearson.html','');});
 </iframe>
 </div>
 
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -104,7 +82,15 @@ Inheritance diagram for Pearson:</div>
 <map name="_pearson_inherit__map" id="_pearson_inherit__map">
 <area shape="rect" id="node2" href="class_dissimilarity.html" title="Base class for all the available dissimilarity. " alt="" coords="5,5,100,32"/>
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for Pearson:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_pearson__coll__graph.png" border="0" usemap="#_pearson_coll__map" alt="Collaboration graph"/></div>
+<map name="_pearson_coll__map" id="_pearson_coll__map">
+<area shape="rect" id="node2" href="class_dissimilarity.html" title="Base class for all the available dissimilarity. " alt="" coords="5,5,100,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -119,8 +105,6 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_pearson.html" title="Pearson similarity. ">Pearson</a> similarity. </p>
 <p>The function is returned negative to be a dissimilarity and fit the minimization of the algorithm. </p>
-
-<p class="definition">Definition at line <a class="el" href="dissimilarity_8h_source.html#l00052">52</a> of file <a class="el" href="dissimilarity_8h_source.html">dissimilarity.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="affc4a348c58385ce552c988af79cdde9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#affc4a348c58385ce552c988af79cdde9">&#9670;&nbsp;</a></span>compute()</h2>
@@ -182,24 +166,18 @@ Public Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="class_dissimilarity.html#aefd66ad44dfb2b37dfaa571a12c334ab">Dissimilarity</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="dissimilarity_8cpp_source.html#l00119">119</a> of file <a class="el" href="dissimilarity_8cpp_source.html">dissimilarity.cpp</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>fdakmapp/src/<a class="el" href="dissimilarity_8h_source.html">dissimilarity.h</a></li>
-<li>fdakmapp/src/<a class="el" href="dissimilarity_8cpp_source.html">dissimilarity.cpp</a></li>
+<li>fdakmapp/src/dissimilarity.cpp</li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="class_pearson.html">Pearson</a></li>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
 </body>
 </html>

@@ -9,14 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(initResizable);
-/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -30,7 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">fdakmapp
+   &#160;<span id="projectnumber">2.1</span>
    </div>
+   <div id="projectbrief">K-mean alignment for functional data</div>
   </td>
  </tr>
  </tbody>
@@ -53,23 +47,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('class_shift_function.html','');});
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -84,6 +61,7 @@ $(document).ready(function(){initNavTree('class_shift_function.html','');});
 </iframe>
 </div>
 
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -104,7 +82,15 @@ Inheritance diagram for ShiftFunction:</div>
 <map name="_shift_function_inherit__map" id="_shift_function_inherit__map">
 <area shape="rect" id="node2" href="class_warping_function.html" title="Base class for all The Warping Functions. " alt="" coords="5,5,125,32"/>
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for ShiftFunction:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_shift_function__coll__graph.png" border="0" usemap="#_shift_function_coll__map" alt="Collaboration graph"/></div>
+<map name="_shift_function_coll__map" id="_shift_function_coll__map">
+<area shape="rect" id="node2" href="class_warping_function.html" title="Base class for all The Warping Functions. " alt="" coords="5,5,125,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -161,8 +147,6 @@ rowvec&#160;</td><td class="memItemRight" valign="bottom"><b>lowerBound</b></td>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Shift warping function. </p>
 <p>A shift trasformation of the abscissa x given the shift ( s ) is: x + s . </p>
-
-<p class="definition">Definition at line <a class="el" href="warping_8h_source.html#l00177">177</a> of file <a class="el" href="warping_8h_source.html">warping.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a195394570b26881c6248d655606247d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a195394570b26881c6248d655606247d8">&#9670;&nbsp;</a></span>apply_warping()</h2>
@@ -209,8 +193,6 @@ rowvec&#160;</td><td class="memItemRight" valign="bottom"><b>lowerBound</b></td>
 <p>return abscissas warped; </p>
 
 <p>Implements <a class="el" href="class_warping_function.html#a9f431cb4c3b857c6a3691a8ec9030cd8">WarpingFunction</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="warping_8h_source.html#l00184">184</a> of file <a class="el" href="warping_8h_source.html">warping.h</a>.</p>
 
 </div>
 </div>
@@ -267,8 +249,6 @@ rowvec&#160;</td><td class="memItemRight" valign="bottom"><b>lowerBound</b></td>
 
 <p>Implements <a class="el" href="class_warping_function.html#aa022f3653d8bd5e4a9728b05f3aa4d41">WarpingFunction</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="warping_8cpp_source.html#l00095">95</a> of file <a class="el" href="warping_8cpp_source.html">warping.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a38f48514f2f7389b3a84cbe83ac36ea3"></a>
@@ -323,8 +303,6 @@ rowvec&#160;</td><td class="memItemRight" valign="bottom"><b>lowerBound</b></td>
 
 <p>Implements <a class="el" href="class_warping_function.html#acf54ff9412350d6aea1e7bccc4c0b6a7">WarpingFunction</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="warping_8cpp_source.html#l00045">45</a> of file <a class="el" href="warping_8cpp_source.html">warping.cpp</a>.</p>
-
 </div>
 </div>
 <a id="aec8d19850d444049c9e4c7d3bf5064bd"></a>
@@ -371,8 +349,6 @@ rowvec&#160;</td><td class="memItemRight" valign="bottom"><b>lowerBound</b></td>
 </dl>
 
 <p>Implements <a class="el" href="class_warping_function.html#a203c08724ca472dbe347809f481606ee">WarpingFunction</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="warping_8h_source.html#l00194">194</a> of file <a class="el" href="warping_8h_source.html">warping.h</a>.</p>
 
 </div>
 </div>
@@ -421,24 +397,18 @@ rowvec&#160;</td><td class="memItemRight" valign="bottom"><b>lowerBound</b></td>
 
 <p>Implements <a class="el" href="class_warping_function.html#aa14c459cf5ea5568d27d8c0c6cce622d">WarpingFunction</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="warping_8h_source.html#l00204">204</a> of file <a class="el" href="warping_8h_source.html">warping.h</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>fdakmapp/src/<a class="el" href="warping_8h_source.html">warping.h</a></li>
-<li>fdakmapp/src/<a class="el" href="warping_8cpp_source.html">warping.cpp</a></li>
+<li>fdakmapp/src/warping.cpp</li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="class_shift_function.html">ShiftFunction</a></li>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
 </body>
 </html>

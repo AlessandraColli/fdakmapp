@@ -1,5 +1,0 @@
-<map id="CenterMethod" name="CenterMethod">
-<area shape="rect" id="node2" href="$class_mean.html" title="Mean center method compute an approximation by lowess. " alt="" coords="5,80,60,107"/>
-<area shape="rect" id="node3" href="$class_medoid.html" title="Medoid center method finds the real medoid center. " alt="" coords="85,80,149,107"/>
-<area shape="rect" id="node4" href="$class_pseudo_medoid.html" title="PseudoMedoid center method finds the real medoid of each component and create a center. " alt="" coords="173,80,281,107"/>
-</map>

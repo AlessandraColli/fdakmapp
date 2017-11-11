@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#'@title Functional Data Analysis Plus: K-Mean/Medoid Alignment:\n#'@description Fdakmapp is a package that allows to jointly perform clustering\n#' and alignment of a functional dataset (multidimensional or unidimensional functions).\n#'\n#'@references\n#'\\itemize{\n#'\\item Sangalli, L.M., Secchi, P., Vantini, S., Vitelli, V., 2010. \\emph{\"K-mean alignment for curve clustering\"}. Computational Statistics and Data Analysis, 54, 1219-1233.\n#'\\item Sangalli, L.M., Secchi, P., Vantini, S., 2014. \\emph{\"Analysis of AneuRisk65 data: K-mean Alignment\"}. Electronic Journal of Statistics, Special Section on \"Statistics of Time Warpings and Phase Variations\", Vol. 8, No. 2, 1891-1904.\n#'}\n#'@seealso\n#'\\code{\\link{kmap}}.\n#'\n#'@examples\n#' ############# EXE ##########################\n#' res<-kmap(x=aneurisk65$x, y=aneurisk65$y, n_clust=2,seeds=c(32,64))\n#'\n#' ############# OUTPUT################\n#' kmap_show_results(res,TRUE,TRUE)\n#'\n#'@docType package\n#'@name fdakmapp\nNULL\n\n\n\n\n",
+    "created" : 1510405647085.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2419996412",
+    "id" : "7B04F46",
+    "lastKnownWriteTime" : 1510405859,
+    "last_content_update" : 1510405859544,
+    "path" : "~/Desktop/Fdakmaplus/fdakmapp/R/fdakmapp.R",
+    "project_path" : "R/fdakmapp.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
